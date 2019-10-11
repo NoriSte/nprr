@@ -1,14 +1,8 @@
 const npm = require("npm");
+const { readNpmScripts } = require("./read-npm-scripts.js");
+const { autocomplete } = require("./autocomplete.js");
 
-const readNpmScripts = () =>
-  new Promise(resolve => {
-    npm.load(() => {
-      const packageJsonPath = npm.config.sources.project.path.replace(".npmrc", "package.json");
-      const packageJson = require(packageJsonPath);
-      resolve(packageJson.scripts);
-    });
-  });
-
-readNpmScripts().then(scripts => {
-  console.log(scripts);
-});
+readNpmScripts()
+  .then(scripts => autocomplete({ choices: scripts }))
+  .then(answer => npm["run-script"](answer))
+  .catch(console.error);

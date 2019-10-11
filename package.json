@@ -12,7 +12,8 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "semantic-release": "semantic-release",
     "commit": "git-cz"
   },
@@ -32,9 +33,11 @@
   "homepage": "https://github.com/NoriSte/npr#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.0.2",
+    "jest": "^24.9.0",
     "semantic-release": "^15.13.24"
   },
   "dependencies": {
+    "enquirer": "^2.3.2",
     "npm": "^6.12.0"
   }
 }
