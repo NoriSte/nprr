@@ -12,8 +12,8 @@
     }
   },
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "unit:test": "jest",
+    "unit:test:watch": "jest --watch",
     "semantic-release": "semantic-release",
     "commit": "git-cz"
   },
