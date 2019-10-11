@@ -3,6 +3,12 @@
   "version": "0.0.0-development",
   "description": "npm run + autocomplete 🎉",
   "main": "src/index.js",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release",
