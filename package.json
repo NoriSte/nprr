@@ -1,0 +1,20 @@
+{
+  "name": "npr",
+  "version": "1.0.0",
+  "description": "npm run + autocomplete 🎉",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoriSte/npr.git"
+  },
+  "keywords": ["npm run", "autocomplete"],
+  "author": "NoriSte <nori.ste.magni@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoriSte/npr/issues"
+  },
+  "homepage": "https://github.com/NoriSte/npr#readme"
+}
