@@ -8,7 +8,6 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release",
