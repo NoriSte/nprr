@@ -4,17 +4,17 @@ npm run + autocomplete 🎉
 
 ## features
 npr -> autocomplete for scripts
-npr -> npm run directly in case of single choice
+npr -> npm run directly in case of exact match
+npr cmd options
+npr cmd -- options
+npr -- options
 
 ## TODO
-- npm run directly in case of exact match only (npr COMMAND etc.)
-- npr --option
-- npr commandFilter --option
-- npr option? npr commandFilter option? mange it with npr commandFilter -- option?
 - specify to the user when the root is global?
 - integrate renovate, stryker, coverage, all contributors etc. rom other pacckages
 - how to launch npr from node
-- doign the same with yarn?
+- doing the same with yarn?
+- report the number of dependencies
 
 ## related TODO
 - post to explain the use of NPM as local dependency and avoid other methods to launch commands
