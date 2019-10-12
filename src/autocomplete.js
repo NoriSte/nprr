@@ -1,9 +1,13 @@
-const autocomplete = ({ choices, autocompleteModule = require("enquirer").AutoComplete }) => {
-  const keys = Object.keys(choices);
-  if (keys.length === 1) {
-    return Promise.resolve(keys[0]);
+const autocomplete = ({
+  choices,
+  filter,
+  autocompleteModule = require("enquirer").AutoComplete
+}) => {
+  if (choices[filter]) {
+    return Promise.resolve(filter);
   }
 
+  const keys = Object.keys(choices);
   const prompt = new autocompleteModule({
     name: "NPM scripts",
     message: "npm run",

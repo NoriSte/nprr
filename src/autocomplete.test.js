@@ -13,7 +13,7 @@ it("Should call the autocomplete module with all the available choices", () => {
   expect(prompt.run).toHaveBeenCalledWith();
 });
 
-it("Should call return directly the first choice if there is just one", () => {
+it("Should call directly the first choice in case of exact match", () => {
   const choices = { a: "a" };
-  return expect(autocomplete({ choices })).resolves.toBe(choices.a);
+  return expect(autocomplete({ choices, filter: "a" })).resolves.toBe(choices.a);
 });
