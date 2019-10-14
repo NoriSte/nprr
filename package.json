@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/NoriSte/npr#readme",
   "devDependencies": {
+    "coveralls": "^3.0.7",
     "cz-conventional-changelog": "^3.0.2",
     "jest": "^24.9.0",
     "semantic-release": "^15.13.24"
