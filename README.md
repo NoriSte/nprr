@@ -67,6 +67,12 @@ Unfortunately not but I'd love to add it as soon as possible. Npr leverages [Enq
 #### Could npm allow for both autocomplete and fuzzy search?
 At the moment the fuzzy search is not supported. I need to investigate how it could be done with Enquirer/Inquirer.
 
+#### Does a less-obtrusive solution exist to list the package.json scripts without opening it?
+Try [Jaga Santagostino](https://github.com/kandros)'s [`script` command](https://jagascript.com/using-custom-terminal-functions/#print-packagejson-scripts).
+
+### Notes
+The E2E tests are run directly with Travis, take a look at the [`.travis.yml`](./.travis.yml) file.
+
 
 
 ## Contributors ✨
@@ -77,7 +83,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://twitter.com/NoriSte"><img src="https://avatars0.githubusercontent.com/u/173663?v=4" width="100px;" alt="Stefano Magni"/><br /><sub><b>Stefano Magni</b></sub></a><br /><a href="#content-NoriSte" title="Content">🖋</a> <a href="#example-NoriSte" title="Examples">💡</a> <a href="#ideas-NoriSte" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://twitter.com/NoriSte"><img src="https://avatars0.githubusercontent.com/u/173663?v=4" width="100px;" alt="Stefano Magni"/><br /><sub><b>Stefano Magni</b></sub></a><br /><a href="https://github.com/NoriSte/npr/commits?author=NoriSte" title="Code">💻</a> <a href="#docs-NoriSte" title="Docs">📖</a> <a href="#content-NoriSte" title="Content">🖋</a> <a href="#example-NoriSte" title="Examples">💡</a> <a href="#ideas-NoriSte" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
