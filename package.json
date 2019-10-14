@@ -17,7 +17,7 @@
     "semantic-release": "semantic-release",
     "commit": "git-cz",
     "// INSTALLATION /////////////////////": "",
-    "global-installation": "npm pack && sudo npm i -g $(find . -name 'npr-*') && sudo -k",
+    "global-installation": "npm pack && sudo $(which npm) i -g $(find . -name 'npr-*') && sudo -k",
     "global-uninstallation": "sudo npm uninstall -g npr && sudo -k",
     "// TESTS ////////////////////////////": "",
     "test": "npm run e2e:test:global-installation",
