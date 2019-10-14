@@ -41,3 +41,21 @@ describe.each([
     });
   });
 });
+
+describe.each([[["/usr/bin/node", "src/index.js"], { scriptName: "", options: [] }]])(
+  "With the full argv (%j) should return %j",
+  (params, expected) => {
+    test("Passed as array", () => {
+      expect(parseCmd(params)).toEqual(expected);
+    });
+    test("Passed as string", () => {
+      expect(parseCmd(params.join(" "))).toEqual(expected);
+    });
+  }
+);
+
+it("Should throw an error if called params that are not a string nr an array", () => {
+  expect(() => {
+    parseCmd({});
+  }).toThrow();
+});

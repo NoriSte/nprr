@@ -5,7 +5,6 @@ const parseCmd = (params = []) => {
     params = params.split(" ");
   }
   if (!Array.isArray(params)) {
-    console.log(params);
     throw new TypeError(`${params} should be an array or a string`);
   }
 

@@ -1,7 +1,8 @@
 # npr
 npm run + autocomplete = npr 🎉
 
-[![Build Status](https://travis-ci.com/NoriSte/npr.svg?branch=master)](https://travis-ci.com/NoriSte/npr) [![Build Cron](https://img.shields.io/badge/build%20cron-weekly-44cc11.svg)](https://travis-ci.com/NoriSte/npr) [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Build Status](https://travis-ci.com/NoriSte/npr.svg?branch=master)](https://travis-ci.com/NoriSte/npr) [![Coverage Status](https://coveralls.io/repos/github/NoriSte/npr/badge.svg?branch=feature/npr)](https://coveralls.io/github/NoriSte/npr?branch=feature/npr) [![Build Cron](https://img.shields.io/badge/build%20cron-weekly-44cc11.svg)](https://travis-ci.com/NoriSte/npr)
+<br />[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 ## What is npr?
 
@@ -51,8 +52,8 @@ All the scripts can be launched with options too, all the next examples chain `o
 
 ## FAQs
 
-#### Could I use npr programmatically?<br />
-Certainly! The script below leverages npr and gets the arguments passed to `npr.run()`
+#### Could I use npr programmatically?
+Certainly! The script below leverages npr and gets the arguments passed to `npr.run()` (please, do not forget to install npr locally with `npm i -D npr`)
 ```js
 const npr = require("npr");
 npr("test").then(argv => {

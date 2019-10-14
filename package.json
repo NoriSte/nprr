@@ -13,6 +13,7 @@
   },
   "scripts": {
     "unit:test": "jest",
+    "unit:test:coverage": "jest --collectCoverage",
     "unit:test:watch": "jest --watch",
     "semantic-release": "semantic-release",
     "commit": "git-cz",

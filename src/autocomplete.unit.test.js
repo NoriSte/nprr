@@ -25,3 +25,9 @@ it("Should call the autocomplete module with a filtered set of scripts in case o
 
   expect(AutoComplete).toHaveBeenCalledWith(expect.objectContaining({ choices: filteredChoices }));
 });
+
+it("Should throw an error if called without choices", () => {
+  expect(() => {
+    autocomplete({ choices: [] });
+  }).toThrow();
+});
