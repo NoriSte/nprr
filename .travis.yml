@@ -2,10 +2,13 @@ language: node_js
 node_js:
   - "node"
 
+before_install:
+  - npm install n
+  - sudo ./node_modules/.bin/n stable
+  - rm -rf ~/.nvm
 jobs:
   include:
-      node_js: node
-      script: npm test
+    node_js: node
+    script: npm test
 
-after_success:
-  npm run semantic-release
+after_success: npm run semantic-release
