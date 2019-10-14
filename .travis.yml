@@ -21,6 +21,6 @@ jobs:
       script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
     - stage: Stryker
       node_js: node
-      script: npm run unit:test
+      script: npm run stryker
 
 after_success: npm run semantic-release
