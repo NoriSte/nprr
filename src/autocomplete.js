@@ -14,6 +14,10 @@ const autocomplete = ({ choices, filter }) => {
     message += ` (filter: ${filter})`;
   }
 
+  if (!keys.length) {
+    throw new Error("No scripts available");
+  }
+
   const prompt = new (require("enquirer")).AutoComplete({
     name: "NPM scripts",
     message,

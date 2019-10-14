@@ -19,7 +19,8 @@
     "install-on-your-machine": "npm pack && sudo npm i -g $(find . -name 'npr-*') && sudo -k",
     "// TESTS ////////////////////////////": "",
     "test": "npm run unit:test && npm run test:import-npr",
-    "test:import-npr": "npm pack && cd test-projects/import-npr && npm i $(find ../../ -name 'npr-*') && npm run script && cd ../.."
+    "test:import-npr": "npm pack && cd test-projects/import-npr && npm i $(find ../../ -name 'npr-*') && npm run script && cd ../..",
+    "test:trap": "jest -t 'Trap succeed'"
   },
   "repository": {
     "type": "git",

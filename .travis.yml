@@ -11,6 +11,9 @@ before_script:
 jobs:
   include:
     node_js: node
+    # the next are truly E2E tests
     script: npr test
+    script: npr unit:test -t 'Trap succeed'
+    script: npr unit:test -- -t 'Trap succeed'
 
 after_success: npm run semantic-release
