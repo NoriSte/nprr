@@ -8,6 +8,10 @@ npr -> npm run directly in case of exact match
 npr cmd options
 npr cmd -- options
 npr -- options
+## programmatically
+remove npr
+remove npr run
+accept both string and array
 
 ## TODO
 - specify to the user when the root is global?
