@@ -17,7 +17,8 @@
     "semantic-release": "semantic-release",
     "commit": "git-cz",
     "// TESTS ////////////////////////////": "",
-    "test": "npm run unit:test"
+    "test": "npm run unit:test && npm run test:import-npr",
+    "test:import-npr": "npm pack && cd test-projects/import-npr && npm i $(find ../../ -name 'npr-*') && npm run script && cd ../.."
   },
   "repository": {
     "type": "git",

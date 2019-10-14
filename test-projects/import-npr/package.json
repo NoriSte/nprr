@@ -1,0 +1,16 @@
+{
+  "name": "import-npr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Run NPR programmatically\"",
+    "script": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npr": "file:../../npr-0.0.0-development.tgz"
+  }
+}
