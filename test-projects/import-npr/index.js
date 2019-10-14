@@ -2,7 +2,7 @@ const assert = require("assert");
 const npr = require("npr");
 
 npr("test").then(argv => {
-  assert.deepEqual(argv, ["test2"]);
+  assert.deepEqual(argv, ["test"]);
 });
 npr("npr test").then(argv => {
   assert.deepEqual(argv, ["test"]);
