@@ -2,9 +2,13 @@ language: node_js
 node_js:
   - "node"
 
+before_script:
+  - npm pack
+  - npm i -g $(find . -name 'npr-*')
+
 jobs:
   include:
     node_js: node
-    script: npm test
+    script: npr test
 
 after_success: npm run semantic-release

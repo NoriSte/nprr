@@ -20,9 +20,9 @@
     "global-installation": "npm pack && npm i -g $(find . -name 'npr-*')",
     "global-uninstallation": "npm uninstall -g npr",
     "// TESTS ////////////////////////////": "",
-    "test": "npm run e2e:test:global-installation",
+    "test": "npm run unit:test",
     "test:global-installation": "cd test-project/local-installation && npr test && cd ../..",
-    "e2e:test:global-installation": "npm run global-installation && npm run test:global-installation && npm run global-uninstallation"
+    "e2e:test:global-installation": "npm run global-installation && npm run test:global-installation"
   },
   "repository": {
     "type": "git",
