@@ -50,7 +50,7 @@ All the scripts can be launched with options too, all the next examples chain `o
 
 `npm i -g nprr`
 
-## FAQs
+## FAQ
 
 #### Could I use nprr programmatically?
 Certainly! The script below leverages nprr and gets the arguments passed to `nprr.run()` (please, do not forget to install nprr locally with `npm i -D nprr`)
