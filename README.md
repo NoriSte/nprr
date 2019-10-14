@@ -6,7 +6,7 @@ nprr: npm run + autocomplete 🚀
 
 ## What is nprr?
 
-Npr is an `npm run` enhancer! It runs the good `npm run` programmatically (through `npm.run()`, not `child_process.exec()`) or let you choose the script to launch with autocomplete.
+Nprr is an `npm run` enhancer! It runs the good `npm run` programmatically (through `npm.run()`, not `child_process.exec()`) or let you choose the script to launch with autocomplete.
 
 ## Features
 
@@ -60,10 +60,10 @@ nprr("test").then(argv => {
   console.log(argv);
 });
 ```
-Npr accepts an array of strings or a string as the only argument.
+Nprr accepts an array of strings or a string as the only argument.
 
 #### Is it possible to use edit the filter passed to nprr?
-Unfortunately not but I'd love to add it as soon as possible. Npr leverages [Enquirer](https://github.com/enquirer/enquirer) but, at the moment, it does not allow to do that, see the [related issue](https://github.com/enquirer/enquirer/issues/66) (and [Inquirer](https://github.com/SBoudrias/Inquirer.js/) can do that [neither](https://github.com/SBoudrias/Inquirer.js/issues/590)).
+Unfortunately not but I'd love to add it as soon as possible. Nprr leverages [Enquirer](https://github.com/enquirer/enquirer) but, at the moment, it does not allow to do that, see the [related issue](https://github.com/enquirer/enquirer/issues/66) (and [Inquirer](https://github.com/SBoudrias/Inquirer.js/) can do that [neither](https://github.com/SBoudrias/Inquirer.js/issues/590)).
 
 #### Could npm allow for both autocomplete and fuzzy search?
 At the moment the fuzzy search is not supported. I need to investigate how it could be done with Enquirer/Inquirer.

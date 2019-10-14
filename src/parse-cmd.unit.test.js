@@ -22,12 +22,12 @@ describe.each([
   });
 
   describe("Prefixed by `nprr`", () => {
-    let paramsWithNpr = ["nprr", ...params];
+    let paramsWithNprr = ["nprr", ...params];
     test("Passed as array", () => {
-      expect(parseCmd(paramsWithNpr)).toEqual(expected);
+      expect(parseCmd(paramsWithNprr)).toEqual(expected);
     });
     test("Passed as string", () => {
-      expect(parseCmd(paramsWithNpr.join(" "))).toEqual(expected);
+      expect(parseCmd(paramsWithNprr.join(" "))).toEqual(expected);
     });
   });
 
