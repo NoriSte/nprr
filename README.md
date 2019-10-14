@@ -19,6 +19,7 @@ accept both string and array
 - how to launch npr from node
 - doing the same with yarn?
 - report the number of dependencies
+- test with more node version
 
 ## related TODO
 - post to explain the use of NPM as local dependency and avoid other methods to launch commands
