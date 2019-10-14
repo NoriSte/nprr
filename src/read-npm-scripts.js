@@ -1,3 +1,5 @@
+"use strict";
+
 const npm = require("npm");
 
 const readNpmScripts = () =>

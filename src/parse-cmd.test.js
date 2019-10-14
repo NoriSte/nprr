@@ -1,3 +1,5 @@
+"use strict";
+
 const { parseCmd } = require("./parse-cmd.js");
 
 describe.each([

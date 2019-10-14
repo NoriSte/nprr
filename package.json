@@ -15,7 +15,14 @@
     "unit:test": "jest",
     "unit:test:watch": "jest --watch",
     "semantic-release": "semantic-release",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "// INSTALLATION /////////////////////": "",
+    "global-installation": "npm pack | pbcopy && sudo npm i -g $(pbpaste) && sudo -k",
+    "global-uninstallation": "sudo npm uninstall -g npr && sudo -k",
+    "// TESTS ////////////////////////////": "",
+    "test": "npm run e2e:test:global-installation",
+    "test:global-installation": "cd test-project/local-installation && npr test && cd ../..",
+    "e2e:test:global-installation": "npm run global-installation && npm run test:global-installation && npm run global-uninstallation"
   },
   "repository": {
     "type": "git",

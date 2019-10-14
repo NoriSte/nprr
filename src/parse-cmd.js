@@ -1,3 +1,5 @@
+"use strict";
+
 const parseCmd = (params = []) => {
   if (typeof params === "string") {
     params = params.split(" ");

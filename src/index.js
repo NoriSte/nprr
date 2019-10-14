@@ -1,3 +1,5 @@
+"use strict";
+
 const npm = require("npm");
 const { readNpmScripts } = require("./read-npm-scripts.js");
 const { autocomplete } = require("./autocomplete.js");

@@ -1,3 +1,5 @@
+"use strict";
+
 const autocomplete = ({ choices, filter }) => {
   if (choices[filter]) {
     return Promise.resolve(filter);
