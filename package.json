@@ -16,6 +16,7 @@
     "unit:test:watch": "jest --watch",
     "semantic-release": "semantic-release",
     "commit": "git-cz",
+    "install-on-your-machine": "npm pack && sudo npm i -g $(find . -name 'npr-*') && sudo -k",
     "// TESTS ////////////////////////////": "",
     "test": "npm run unit:test && npm run test:import-npr",
     "test:import-npr": "npm pack && cd test-projects/import-npr && npm i $(find ../../ -name 'npr-*') && npm run script && cd ../.."
@@ -37,8 +38,7 @@
   "devDependencies": {
     "cz-conventional-changelog": "^3.0.2",
     "jest": "^24.9.0",
-    "semantic-release": "^15.13.24",
-    "wait-for-expect": "^3.0.0"
+    "semantic-release": "^15.13.24"
   },
   "dependencies": {
     "enquirer": "^2.3.2",

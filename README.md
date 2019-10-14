@@ -16,6 +16,7 @@ accept both string and array
 take a look at the travis file for tests
 
 ## TODO
+- filter
 - specify to the user when the root is global?
 - integrate renovate, stryker, coverage, all contributors etc. rom other pacckages
 - how to launch npr from node

@@ -9,7 +9,13 @@ const main = argv => {
   const { scriptName, options } = parseCmd(argv);
   return readNpmScripts()
     .then(scripts => autocomplete({ choices: scripts, filter: scriptName }))
-    .then(answer => npm.run([answer, ...options]))
+    .then(answer => {
+      return new Promise(resolve => {
+        const params = [answer, ...options];
+        npm.run(params);
+        resolve(params);
+      });
+    })
     .catch(console.error);
 };
 
