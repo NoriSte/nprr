@@ -1,10 +1,12 @@
 language: node_js
 node_js:
-  - "node"
+  - 8
+  - 10
+  - 12
 
 before_script:
   - npm pack
-  - npm i -g $(find . -name 'npr-*')
+  - npm i -g $(find . -name 'npr-*') # install the package globally
 
 jobs:
   include:
