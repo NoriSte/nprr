@@ -1,17 +1,18 @@
+"use strict";
+
 const npm = require("npm");
 const waitForExpect = require("wait-for-expect");
 const main = require("./index.js");
 const { readNpmScripts } = require("./read-npm-scripts.js");
 
-const { parseCmd } = require("./parse-cmd.js");
-
-it("TEST TO NAME", async () => {
+it("Should call one of the available commands", async () => {
   const scripts = await readNpmScripts();
-  const firstScript = Object.keys(scripts)[0];
+  const scriptNames = Object.keys(scripts);
 
   expect(npm.load).toBeCalled();
   main();
   await waitForExpect(() => {
-    expect(npm.run).toBeCalledWith([firstScript]);
+    expect(npm.run).toBeCalled();
+    expect(scriptNames).toContain(npm.run.mock.calls[0][0][0]);
   }, 1000);
 });
