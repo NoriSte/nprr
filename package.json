@@ -1,10 +1,10 @@
 {
-  "name": "npr",
-  "version": "0.0.0-development",
-  "description": "npm run + autocomplete 🎉",
+  "name": "nprr",
+  "version": "1.0.0",
+  "description": "npm run + autocomplete = nprr 🚀",
   "main": "src/index.js",
   "bin": {
-    "npr": "./src/bin.js"
+    "nprr": "./src/bin.js"
   },
   "config": {
     "commitizen": {
@@ -17,16 +17,16 @@
     "unit:test:watch": "jest --watch",
     "semantic-release": "semantic-release",
     "commit": "git-cz",
-    "install-on-your-machine": "npm pack && sudo npm i -g $(find . -name 'npr-*') && sudo -k",
+    "install-on-your-machine": "npm pack && sudo npm i -g $(find . -name 'nprr-*') && sudo -k",
     "// TESTS ////////////////////////////": "",
-    "test": "npm run unit:test && npm run test:import-npr",
-    "test:import-npr": "npm pack && cd test-projects/import-npr && npm i $(find ../../ -name 'npr-*') && npm run script && cd ../..",
+    "test": "npm run unit:test && npm run test:import-nprr",
+    "test:import-nprr": "npm pack && cd test-projects/import-nprr && npm i $(find ../../ -name 'nprr-*') && npm run script && cd ../..",
     "test:trap": "jest -t 'Trap succeed'",
     "stryker": "npx stryker run"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NoriSte/npr.git"
+    "url": "https://github.com/NoriSte/nprr.git"
   },
   "keywords": [
     "npm run",
@@ -35,9 +35,9 @@
   "author": "NoriSte <nori.ste.magni@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NoriSte/npr/issues"
+    "url": "https://github.com/NoriSte/nprr/issues"
   },
-  "homepage": "https://github.com/NoriSte/npr#readme",
+  "homepage": "https://github.com/NoriSte/nprr#readme",
   "devDependencies": {
     "@semantic-release/npm": "^5.2.0",
     "@stryker-mutator/core": "^2.1.0",

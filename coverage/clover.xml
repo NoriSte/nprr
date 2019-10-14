@@ -2,7 +2,7 @@
 <coverage generated="1571056958849" clover="3.2.0">
   <project timestamp="1571056958849" name="All files">
     <metrics statements="59" coveredstatements="58" conditionals="36" coveredconditionals="34" methods="10" coveredmethods="10" elements="105" coveredelements="102" complexity="0" loc="59" ncloc="59" packages="1" files="4" classes="4"/>
-    <file name="autocomplete.js" path="/Users/noriste/Sites/noriste/npr/src/autocomplete.js">
+    <file name="autocomplete.js" path="/Users/noriste/Sites/noriste/nprr/src/autocomplete.js">
       <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <line num="3" count="2" type="stmt"/>
       <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
@@ -18,7 +18,7 @@
       <line num="27" count="3" type="stmt"/>
       <line num="30" count="2" type="stmt"/>
     </file>
-    <file name="index.js" path="/Users/noriste/Sites/noriste/npr/src/index.js">
+    <file name="index.js" path="/Users/noriste/Sites/noriste/nprr/src/index.js">
       <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
@@ -34,7 +34,7 @@
       <line num="16" count="1" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
     </file>
-    <file name="parse-cmd.js" path="/Users/noriste/Sites/noriste/npr/src/parse-cmd.js">
+    <file name="parse-cmd.js" path="/Users/noriste/Sites/noriste/nprr/src/parse-cmd.js">
       <metrics statements="22" coveredstatements="22" conditionals="28" coveredconditionals="27" methods="1" coveredmethods="1"/>
       <line num="3" count="2" type="cond" truecount="1" falsecount="0"/>
       <line num="4" count="64" type="cond" truecount="2" falsecount="0"/>
@@ -59,7 +59,7 @@
       <line num="38" count="63" type="cond" truecount="3" falsecount="1"/>
       <line num="41" count="2" type="stmt"/>
     </file>
-    <file name="read-npm-scripts.js" path="/Users/noriste/Sites/noriste/npr/src/read-npm-scripts.js">
+    <file name="read-npm-scripts.js" path="/Users/noriste/Sites/noriste/nprr/src/read-npm-scripts.js">
       <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
       <line num="3" count="1" type="stmt"/>
       <line num="5" count="1" type="stmt"/>

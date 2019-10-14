@@ -1,5 +1,5 @@
 TN:
-SF:/Users/noriste/Sites/noriste/npr/src/autocomplete.js
+SF:/Users/noriste/Sites/noriste/nprr/src/autocomplete.js
 FN:3,(anonymous_0)
 FN:13,(anonymous_1)
 FNF:2
@@ -31,7 +31,7 @@ BRF:6
 BRH:6
 end_of_record
 TN:
-SF:/Users/noriste/Sites/noriste/npr/src/index.js
+SF:/Users/noriste/Sites/noriste/nprr/src/index.js
 FN:8,(anonymous_0)
 FN:11,(anonymous_1)
 FN:12,(anonymous_2)
@@ -61,7 +61,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/noriste/Sites/noriste/npr/src/parse-cmd.js
+SF:/Users/noriste/Sites/noriste/nprr/src/parse-cmd.js
 FN:3,(anonymous_0)
 FNF:1
 FNH:1
@@ -122,7 +122,7 @@ BRF:28
 BRH:27
 end_of_record
 TN:
-SF:/Users/noriste/Sites/noriste/npr/src/read-npm-scripts.js
+SF:/Users/noriste/Sites/noriste/nprr/src/read-npm-scripts.js
 FN:5,(anonymous_0)
 FN:6,(anonymous_1)
 FN:7,(anonymous_2)

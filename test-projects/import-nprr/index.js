@@ -1,21 +1,21 @@
 const assert = require("assert");
-const npr = require("npr");
+const nprr = require("nprr");
 
-npr("test").then(argv => {
+nprr("test").then(argv => {
   assert.deepEqual(argv, ["test"]);
 });
-npr("npr test").then(argv => {
+nprr("nprr test").then(argv => {
   assert.deepEqual(argv, ["test"]);
 });
-npr("npm run test").then(argv => {
+nprr("npm run test").then(argv => {
   assert.deepEqual(argv, ["test"]);
 });
-npr(["test"]).then(argv => {
+nprr(["test"]).then(argv => {
   assert.deepEqual(argv, ["test"]);
 });
-npr(["npr", "test"]).then(argv => {
+nprr(["nprr", "test"]).then(argv => {
   assert.deepEqual(argv, ["test"]);
 });
-npr(["npm", "run", "test"]).then(argv => {
+nprr(["npm", "run", "test"]).then(argv => {
   assert.deepEqual(argv, ["test"]);
 });

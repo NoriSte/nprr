@@ -1,5 +1,5 @@
 {
-  "name": "import-npr",
+  "name": "import-nprr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "npr": "file:../../npr-0.0.0-development.tgz"
+    "nprr": "file:../../nprr-0.0.0-development.tgz"
   }
 }

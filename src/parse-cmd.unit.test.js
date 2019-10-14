@@ -21,8 +21,8 @@ describe.each([
     expect(parseCmd(params.join(" "))).toEqual(expected);
   });
 
-  describe("Prefixed by `npr`", () => {
-    let paramsWithNpr = ["npr", ...params];
+  describe("Prefixed by `nprr`", () => {
+    let paramsWithNpr = ["nprr", ...params];
     test("Passed as array", () => {
       expect(parseCmd(paramsWithNpr)).toEqual(expected);
     });

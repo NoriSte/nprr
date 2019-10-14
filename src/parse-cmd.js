@@ -15,8 +15,8 @@ const parseCmd = (params = []) => {
     params.shift();
     params.shift();
   }
-  // remove npr
-  if (params.length && params[0] === "npr") {
+  // remove nprr
+  if (params.length && params[0] === "nprr") {
     params.shift();
   }
   // remove npm run
