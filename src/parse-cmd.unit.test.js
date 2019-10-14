@@ -57,5 +57,5 @@ describe.each([[["/usr/bin/node", "src/index.js"], { scriptName: "", options: []
 it("Should throw an error if called params that are not a string nr an array", () => {
   expect(() => {
     parseCmd({});
-  }).toThrow();
+  }).toThrowErrorMatchingSnapshot();
 });
