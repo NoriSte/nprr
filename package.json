@@ -1,7 +1,7 @@
 {
   "name": "nprr",
   "version": "1.0.0",
-  "description": "npm run + autocomplete = nprr 🚀",
+  "description": "nprr: npm run + autocomplete 🚀",
   "main": "src/index.js",
   "bin": {
     "nprr": "./src/bin.js"
