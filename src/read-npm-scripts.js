@@ -2,19 +2,21 @@
 
 const npm = require("npm");
 
+const npmProjectLogPrefix = "NPM project: ";
 const readNpmScripts = () =>
-  new Promise(resolve => {
+  new Promise((resolve, reject) => {
     npm.load(() => {
       if (!npm.config.sources.project.path) {
-        throw new Error("No NPM project found");
+        reject("No NPM project found");
       }
       const packageJsonPath = npm.config.sources.project.path.replace(".npmrc", "package.json");
-      console.log(`NPM project: ${packageJsonPath}`);
+      console.log(npmProjectLogPrefix + packageJsonPath);
       const packageJson = require(packageJsonPath);
       resolve(packageJson.scripts);
     });
   });
 
 module.exports = {
-  readNpmScripts
+  readNpmScripts,
+  npmProjectLogPrefix
 };

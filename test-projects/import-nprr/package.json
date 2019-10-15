@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nprr": "file:../../nprr-0.0.0-development.tgz"
+    "nprr": "file:../../nprr-1.0.0.tgz"
   }
 }

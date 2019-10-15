@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should throw an error if the project is not found 1`] = `"No NPM project found"`;

@@ -15,8 +15,7 @@ const main = argv => {
         npm.run(params);
         resolve(params);
       });
-    })
-    .catch(console.error);
+    });
 };
 
 module.exports = main;
