@@ -8,6 +8,7 @@ const readNpmScripts = () =>
     npm.load(() => {
       if (!npm.config.sources.project.path) {
         reject("No NPM project found");
+        return;
       }
       const packageJsonPath = npm.config.sources.project.path.replace(".npmrc", "package.json");
       console.log(npmProjectLogPrefix + packageJsonPath);
