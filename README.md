@@ -52,6 +52,16 @@ All the scripts can be launched with options too, all the next examples chain `o
 
 ## FAQ
 
+#### Could it be aliased to something shorter like "npr" or even "r"?
+Yep! All the bin names are stored in `/usr/local/bin` and if you open it you can find the "nprr" symlink as long as the "npm" one (and "npx", etc.). All you need to do is duplicating it by running:
+
+`$ cp -a /usr/local/bin/nprr /usr/local/bin/YOUR_SHORTCUT` (replace "YOUR_SHORTCUT" with "npr", "r" or whatever you want)
+
+If you change your mind and you want to remove the new shortcut, do not worry: remove it by running
+
+`$ rm /usr/local/bin/YOUR_SHORTCUT`
+
+
 #### Could I use nprr programmatically?
 Certainly! The script below leverages nprr and gets the arguments passed to `nprr.run()` (please, do not forget to install nprr locally with `npm i -D nprr`)
 ```js
@@ -68,8 +78,14 @@ Unfortunately not but I'd love to add it as soon as possible. Nprr leverages [En
 #### Could npm allow for both autocomplete and fuzzy search?
 At the moment the fuzzy search is not supported. I need to investigate how it could be done with Enquirer/Inquirer.
 
+### Why did you call it nprr?
+Because "npr" has [already been used](https://www.npmjs.com/package/npr) on NPM.
+
+### Why did not you call it npra (npr + autocomplete)?
+Because "nprr" is faser to be typed compared to "npra".
+
 #### Does a less-obtrusive solution exist to list the package.json scripts without opening it?
-Try [Jaga Santagostino](https://github.com/kandros)'s [`script` command](https://jagascript.com/using-custom-terminal-functions/#print-packagejson-scripts).
+Nprr leverages just NPM and Enquirer to work. Anyway, if you prefer to have one less global package installed: try [Jaga Santagostino](https://github.com/kandros)'s [`script` command](https://jagascript.com/using-custom-terminal-functions/#print-packagejson-scripts) that adds a simple `script` command that prints the package.json's scripts.
 
 ### Notes
 The E2E tests are run directly with Travis, take a look at the [`.travis.yml`](./.travis.yml) file.
