@@ -78,6 +78,9 @@ Unfortunately not but I'd love to add it as soon as possible. Nprr leverages [En
 #### Could npm allow for both autocomplete and fuzzy search?
 At the moment the fuzzy search is not supported. I need to investigate how it could be done with Enquirer/Inquirer.
 
+#### Snyk reports that nprr has a vulnerability...
+It's with NPM itself, [take a look](https://snyk.io/test/github/noriste/nprr).
+
 ### Why did you call it nprr?
 Because "npr" has [already been used](https://www.npmjs.com/package/npr) on NPM.
 
