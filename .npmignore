@@ -1,0 +1,15 @@
+node_modules
+.DS_Store
+*.tgz
+reports
+package-lock.json
+__mocks__
+.all-contributorsrc
+.travis.yml
+coverage
+release.config.js
+renovate.json
+stryker.conf.js
+test-projects
+src/__snapshots__
+src/*.test.js
