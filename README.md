@@ -98,7 +98,7 @@ Because "npr" has [already been used](https://www.npmjs.com/package/npr) on NPM.
 Because "nprr" is faser to be typed compared to "npra".
 
 #### Does a less-obtrusive solution exist to list the package.json scripts without opening it?
-Nprr leverages just NPM and Enquirer to work. Anyway, if you prefer to have one less global package installed: try [Jaga Santagostino](https://github.com/kandros)'s [`script` command](https://jagascript.com/using-custom-terminal-functions/#print-packagejson-scripts) that adds a simple `script` command that prints the package.json's scripts.
+Yes, it's the built-in [npm-completion](https://docs.npmjs.com/cli/completion).
 
 #### How could I record a video of a terminal session like you did with the opening gif?
 Use [asciinema](https://asciinema.org/). If you want to generate a GIF, make the video public and convert it launching `$ docker run --rm -v $PWD:/data asciinema/asciicast2gif https://asciinema.org/a/VIDEOID.json video.gif`.
