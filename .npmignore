@@ -13,3 +13,4 @@ stryker.conf.js
 test-projects
 src/__snapshots__
 src/*.test.js
+.vscode
