@@ -4,7 +4,7 @@ node_js:
 
 before_script:
   - npm pack
-  - npm i -g $(find . -name 'nprr-*') # install the package globally
+  - npm i -g $(find . -name 'nprr-*.tgz') # install the package globally
 
 jobs:
   include:
