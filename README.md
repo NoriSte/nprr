@@ -1,10 +1,12 @@
 # nprr
 nprr: npm run + autocomplete 🚀
 
+> TL;DR: install it with `$ npm i -g nprr`, run it with `$ nprr`. If you want, [add an alias](#shortcut).
+
 [![Build Status](https://travis-ci.com/NoriSte/nprr.svg?branch=master)](https://travis-ci.com/NoriSte/nprr) [![Coverage Status](https://coveralls.io/repos/github/NoriSte/nprr/badge.svg?branch=master)](https://coveralls.io/github/NoriSte/nprr?branch=feature/nprr) [![Mutation testing badge](https://badge.stryker-mutator.io/github.com/NoriSte/nprr/master)](https://stryker-mutator.github.io) [![Build Cron](https://img.shields.io/badge/build%20cron-weekly-44cc11.svg)](https://travis-ci.com/NoriSte/nprr)
 <br />[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/) [![Known Vulnerabilities](https://snyk.io/test/github/noriste/nprr/badge.svg)](https://snyk.io/test/github/noriste/nprr)
 
-<!-- $ ocker run --rm -v $PWD:/data asciinema/asciicast2gif https://asciinema.org/a/274468.json demo2.gif to generate a gif from the asciinema video -->
+<!-- $ docker run --rm -v $PWD:/data asciinema/asciicast2gif https://asciinema.org/a/274468.json demo.gif to generate a gif from the asciinema video -->
 [![Nprr demo](assets/nprr-demo.gif)](https://github.com/NoriSte/nprr)
 *Watch the [video on asciinema](https://asciinema.org/a/274468)*
 
@@ -56,6 +58,7 @@ All the scripts can be launched with options too, all the next examples chain `o
 
 ## FAQ
 
+<span id="shortcut"></span>
 #### Could it be aliased to something shorter like "npr" or even "r"?
 Yep! All the bin names are stored in `/usr/local/bin` and if you open it you can find the "nprr" symlink as long as the "npm" one (and "npx", etc.). All you need to do is duplicating it by running:
 
