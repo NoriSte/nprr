@@ -20,7 +20,7 @@
     "install-on-your-machine": "npm pack && sudo npm i -g $(find . -name 'nprr-*.tgz') && sudo -k && rm $(find . -name 'nprr-*.tgz')",
     "// TESTS ////////////////////////////": "",
     "test": "npm run unit:test && npm run test:import-nprr",
-    "test:import-nprr": "npm pack && cd test-projects/import-nprr && npm i $(find ../../ -name 'nprr-*') && npm run script && cd ../..",
+    "test:import-nprr": "npm pack && cd test-projects/import-nprr && npm i $(find ../../ -name 'nprr-*.tgz') && npm run script && cd ../..",
     "test:trap": "jest -t 'Trap succeed'",
     "stryker": "npx stryker run"
   },
