@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/NoriSte/nprr#readme",
   "devDependencies": {
-    "@semantic-release/npm": "7.0.1",
+    "@semantic-release/npm": "7.0.2",
     "@stryker-mutator/core": "2.5.0",
     "@stryker-mutator/html-reporter": "2.5.0",
     "@stryker-mutator/javascript-mutator": "2.5.0",
