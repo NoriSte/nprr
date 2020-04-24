@@ -44,7 +44,7 @@
     "@stryker-mutator/html-reporter": "3.1.0",
     "@stryker-mutator/javascript-mutator": "3.1.0",
     "@stryker-mutator/jest-runner": "3.1.0",
-    "coveralls": "3.0.14",
+    "coveralls": "3.1.0",
     "cz-conventional-changelog": "3.1.0",
     "jest": "25.4.0",
     "jest-watch-typeahead": "0.5.0",
