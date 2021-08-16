@@ -48,7 +48,7 @@
     "cz-conventional-changelog": "3.3.0",
     "jest": "27.0.6",
     "jest-watch-typeahead": "0.6.4",
-    "semantic-release": "17.4.4"
+    "semantic-release": "17.4.5"
   },
   "dependencies": {
     "enquirer": "^2.3.2",
