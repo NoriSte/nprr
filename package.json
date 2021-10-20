@@ -46,7 +46,7 @@
     "@stryker-mutator/jest-runner": "5.4.1",
     "coveralls": "3.1.1",
     "cz-conventional-changelog": "3.3.0",
-    "jest": "27.2.5",
+    "jest": "27.3.1",
     "jest-watch-typeahead": "1.0.0",
     "semantic-release": "18.0.0"
   },
