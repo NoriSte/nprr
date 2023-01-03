@@ -1,3 +1,7 @@
+(_Deprecated! Please check out https://fig.io/ or https://github.com/antfu/ni as possible alternatives_)
+
+---
+
 # nprr
 
 nprr: npm run + autocomplete 🚀
