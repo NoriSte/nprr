@@ -40,10 +40,10 @@
   "homepage": "https://github.com/NoriSte/nprr#readme",
   "devDependencies": {
     "@semantic-release/npm": "9.0.2",
-    "@stryker-mutator/core": "6.4.0",
+    "@stryker-mutator/core": "6.4.1",
     "@stryker-mutator/html-reporter": "3.1.0",
     "@stryker-mutator/javascript-mutator": "4.0.0",
-    "@stryker-mutator/jest-runner": "6.4.0",
+    "@stryker-mutator/jest-runner": "6.4.1",
     "coveralls": "3.1.1",
     "cz-conventional-changelog": "3.3.0",
     "jest": "29.4.3",
