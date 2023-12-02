@@ -25,6 +25,13 @@ const parseCmd = (params = []) => {
     params.shift();
   }
 
+  // remove for Windows
+  if (params.length > 1 && process.platform === "win32") {
+    const regex = new RegExp('[a-zA-Z]:\\.*');
+    const result = params.filter(param => !regex.test(param));
+    params = result;
+  }
+  
   let [scriptName, ...options] = params;
 
   const optionsSeparator = "--";
