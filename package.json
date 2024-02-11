@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "enquirer": "^2.3.2",
-    "npm": "^9.0.0"
+    "npm": "^10.2.2"
   },
   "jest": {
     "watchPlugins": [
